@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -29,6 +29,7 @@
           <a class="logo" href="./index.html"
             >Web<span class="accent">Studio</span></a
           >
+
           <!-- menu -->
           <ul class="menu">
             <li class="menu-item">
@@ -57,6 +58,86 @@
             </li>
           </ul>
         </address>
+
+        <button type="button" class="mobil-menu">
+          <svg width="17" height="15">
+            <use href="./images/icons.svg#icon-Group"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mod-menu">
+        <button type="button" class="mob-close">
+          <svg width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <div class="mob-body">
+          <nuv class="mob-nav">
+            <ul class="mob-list">
+              <li class="mob-item">
+                <a class="mob-link current" href="./index.html">Studio</a>
+              </li>
+              <li class="mob-item">
+                <a class="mob-link" href="">Portfolio</a>
+              </li>
+              <li class="mob-item">
+                <a class="mob-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nuv>
+          <div class="mob-address-media">
+            <address class="mob-adress">
+              <ul class="mob-adress-list">
+                <li class="mob-adress-item">
+                  <a class="mob-address-item-link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li class="mob-adress-item">
+                  <a
+                    class="mob-address-item-link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <div class="mob-media">
+              <ul class="list-team-icon">
+                <li class="team-icon">
+                  <a class="mob-media-link" href="">
+                    <svg class="socials-item" height="24" width="24">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-icon">
+                  <a class="mob-media-link" href="">
+                    <svg class="socials-item" height="24" width="24">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-icon">
+                  <a class="mob-media-link" href="">
+                    <svg class="socials-item" height="24" width="24">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-icon">
+                  <a class="mob-media-link" href="">
+                    <svg class="socials-item" height="24" width="24">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -139,7 +220,8 @@
             <li class="contacts-list-item">
               <img
                 class="contacts-img"
-                src="./images/img3.jpg"
+                src="./images/contact/img.jpg"
+                srcset="./images/contact/img-contacts2x.jpg"
                 alt="Mark Guerrero foto"
                 width="264"
                 height="260"
@@ -183,7 +265,8 @@
             <li class="contacts-list-item">
               <img
                 class="contacts-img"
-                src="./images/img2.jpg"
+                src="./images/contact/img1.jpg"
+                srcset="./images/contact/img-contacts2x-2.jpg"
                 alt="Tom Ford foto"
                 width="264"
                 height="260"
@@ -226,7 +309,8 @@
             <li class="contacts-list-item">
               <img
                 class="contacts-img"
-                src="./images/img1.jpg"
+                src="./images/contact/img2.jpg"
+                srcset="./images/contact/img-contacts2x-3.jpg"
                 alt="Camila Garcia foto"
                 width="264"
                 height="260"
@@ -269,7 +353,8 @@
             <li class="contacts-list-item">
               <img
                 class="contacts-img"
-                src="./images/img.jpg"
+                src="./images/contact//img3.jpg"
+                srcset="./images/contact/img-contacts2x-4.jpg"
                 alt="Daniel Wilson foto"
                 width="264"
                 height="260"
@@ -323,7 +408,11 @@
               <div class="wrapper">
                 <img
                   class="portfolio-img"
-                  src="./images/img-portf.jpg"
+                  src="./images/portfolio/port-mob.jpg"
+                  srcset="
+                    ./images/portfolio/port-mob.jpg   1x,
+                    ./images/portfolio/port-mob2x.jpg 2x
+                  "
                   alt="Banking App foto"
                   width="360"
                   height="300"
@@ -343,7 +432,11 @@
               <div class="wrapper">
                 <img
                   class="portfolio-img"
-                  src="./images/img-portf1.jpg"
+                  src="./images/portfolio/port-mob-1.jpg"
+                  srcset="
+                    ./images/portfolio/port-mob-1.jpg   1x,
+                    ./images/portfolio/port-mob2x-1.jpg 2x
+                  "
                   alt="Cashless Payment foto"
                   width="360"
                   height="300"
@@ -363,7 +456,11 @@
               <div class="wrapper">
                 <img
                   class="portfolio-img"
-                  src="./images/img-portf2.jpg"
+                  src="./images/portfolio/port-mob-2.jpg"
+                  srcset="
+                    ./images/portfolio/port-mob-2.jpg   1x,
+                    ./images/portfolio/port-mob2x-2.jpg 2x
+                  "
                   alt="Meditation App foto"
                   width="360"
                   height="300"
@@ -383,7 +480,11 @@
               <div class="wrapper">
                 <img
                   class="portfolio-img"
-                  src="./images/img-portf3.jpg"
+                  src="./images/portfolio/port-mob-3.jpg"
+                  srcset="
+                    ./images/portfolio/port-mob-3.jpg   1x,
+                    ./images/portfolio/port-mob2x-3.jpg 2x
+                  "
                   alt="Taxi Service foto"
                   width="360"
                   height="300"
@@ -403,7 +504,11 @@
               <div class="wrapper">
                 <img
                   class="portfolio-img"
-                  src="./images/img-portf4.jpg"
+                  src="./images/portfolio/port-mob-4.jpg"
+                  srcset="
+                    ./images/portfolio/port-mob-4.jpg   1x,
+                    ./images/portfolio/port-mob2x-4.jpg 2x
+                  "
                   alt="Screen Illustrations foto"
                   width="360"
                   height="300"
@@ -423,7 +528,11 @@
               <div class="wrapper">
                 <img
                   class="portfolio-img"
-                  src="./images/img-portf5.jpg"
+                  src="./images/portfolio/port-mob-5.jpg"
+                  srcset="
+                    ./images/portfolio/port-mob-5.jpg   1x,
+                    ./images/portfolio/port-mob2x-5.jpg 2x
+                  "
                   alt="Online Courses foto"
                   width="360"
                   height="300"
@@ -603,9 +712,11 @@
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="policy-link" href="">Privacy Policy</a></label
-            >
+              <div class="text-policy">
+                I accept the terms and conditions of the
+                <a class="policy-link" href="">Privacy Policy</a></label
+                            >
+              </div>
           </div>
 
           <button type="submit" class="button">
