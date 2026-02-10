@@ -395,7 +395,7 @@ img {
 
 .info {
     /* padding: 120px 0; */
-    padding: 96px 28px;
+    padding: 96px 0;
 }
 
 .visually-hidden {
@@ -464,7 +464,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 
-    font-weight: 500;
+    font-weight: 500px;
 }
 
 
@@ -576,7 +576,7 @@ img {
 
 .portfolio {
     /* padding: 120px 0; */
-    padding: 96px 16px;
+    padding: 96px 0;
 }
 
 .portfolio-herotittel {
@@ -602,10 +602,13 @@ img {
     /* width: calc((100% - 24px * 2) / 3); */
     width: 100%;
     cursor: pointer;
-    box-shadow: 0;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
+.portfolio-list-item:hover .overlay {
+    transform: translateY(0);
 }
 
 .wrapper {
@@ -631,14 +634,6 @@ img {
 
 }
 
-.portfolio-list-item:hover,
-.portfolio-list-item:focus {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-
-.portfolio-list-item:hover .overlay {
-    transform: translateY(0);
-}
 
 .portfolio-carts {
     padding: 32px 16px;
@@ -814,7 +809,7 @@ img {
 .footer-input {
     border: 1px solid #fff;
     border-radius: 4px;
-    width: 264px;
+    width: 288px;
     height: 40px;
     /* margin-right: 24px; */
     padding: 8px 0 8px 16px;
@@ -997,7 +992,6 @@ img {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     padding-left: 38px;
-    padding-left: 16px;
     font-size: 14px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: transparent;
@@ -1148,7 +1142,7 @@ img {
 
     .nav {
         margin-right: 0;
-        width: 100%;
+
     }
 
     .menu {
@@ -1190,7 +1184,10 @@ img {
     }
 
     .info-list {
-        gap: 64px;
+        column-gap: 24px;
+        row-gap: 72px;
+        justify-content: start;
+        max-width: 736px;
     }
 
     .info-item {
@@ -1208,8 +1205,8 @@ img {
     .contacts-list {
         flex-direction: row;
         flex-wrap: wrap;
-        column-gap: 64px;
-        row-gap: 24px;
+        column-gap: 24px;
+        row-gap: 64px;
     }
 
     .contacts-list-item {
@@ -1217,8 +1214,8 @@ img {
     }
 
     .portfolio-list {
-        row-gap: 24px;
-        column-gap: 72px;
+        row-gap: 72px;
+        column-gap: 24px;
     }
 
     .portfolio-list-item {
@@ -1289,6 +1286,7 @@ img {
 
     .footer-input {
         margin-right: 24px;
+        width: 264px;
     }
 
     .modal {
@@ -1326,26 +1324,24 @@ img {
 
     .nav {
         margin-right: auto;
-    }
 
-    .adress-list {
-        flex-direction: row;
-        gap: 40px;
     }
 
     .adress {
         display: flex;
-        align-items: center;
         margin-left: 0;
         margin-top: 0;
     }
-
-    .adress-item {
-        display: flex;
-        align-items: center;
+    
+    .adress-list {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 40px;
     }
-
+    
     .address-item-link {
+        padding: 0;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -1418,7 +1414,15 @@ img {
 
     .portfolio-list-item {
         width: calc((100% - 24px * 2) / 3);
+        box-shadow: 0;
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+
+    .portfolio-list-item:hover,
+    .portfolio-list-item:focus {
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    }
+    
 
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office1.jpg");
@@ -1498,3 +1502,4 @@ img {
     }
 
 }
+
