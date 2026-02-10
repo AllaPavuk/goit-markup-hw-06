@@ -1187,7 +1187,6 @@ img {
         column-gap: 24px;
         row-gap: 72px;
         justify-content: start;
-        max-width: 736px;
     }
 
     .info-item {
