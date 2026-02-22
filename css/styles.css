@@ -87,8 +87,6 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    padding: 0 16px;
-}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -464,7 +462,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 
@@ -1382,7 +1380,7 @@ img {
     }
 
     .info-text {
-        font-weight: 400px;
+        font-weight: 400;
     }
 
     .contacts {
