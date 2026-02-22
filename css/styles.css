@@ -87,6 +87,7 @@ img {
 .header-container {
     display: flex;
     align-items: center;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -1316,7 +1317,6 @@ img {
 
     .logo {
         margin-right: 76px;
-        padding: 28px 0;
     }
 
     .nav {
@@ -1411,7 +1411,7 @@ img {
 
     .portfolio-list-item {
         width: calc((100% - 24px * 2) / 3);
-        box-shadow: 0;
+        box-shadow: none;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
