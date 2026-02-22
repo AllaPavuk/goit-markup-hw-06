@@ -193,7 +193,12 @@ img {
     color: #404bbf;
 }
 
-
+.mob-container {
+    padding: 24px 16px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 .mod-menu {
     background: #fff;
@@ -1191,7 +1196,7 @@ img {
     }
 
     .contacts {
-        padding: 96px 108px;
+        padding: 96px 0;
     }
 
     .contacts>.container {
@@ -1245,7 +1250,7 @@ img {
     }
 
     .footer {
-        padding: 96px 97px;
+        padding: 96px 0;
     }
 
     .footer-container {
