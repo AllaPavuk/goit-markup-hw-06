@@ -198,8 +198,7 @@ img {
 .mod-menu {
     background: #fff;
     width: 100%;
-    min-height: 640px;
-    height: 100%; 
+    height: 100vh; 
     padding: 24px 24px 40px 16px;
     position: fixed;
     top: 0;
@@ -473,7 +472,7 @@ img {
 .contacts {
     background-color: #F4F4FD;
     /* padding: 120px 0; */
-    padding: 96px 12px;
+    padding: 96px 0;
 }
 
 .contacts>.container {
@@ -663,7 +662,7 @@ img {
 .footer {
     background: #2e2f42;
     /* padding: 100px 0; */
-    padding: 96px 16px;
+    padding: 96px 0;
 
 }
 
