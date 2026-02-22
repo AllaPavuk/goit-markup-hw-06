@@ -116,7 +116,7 @@ img {
     margin-right: 16px;
     margin-left: auto;
     border: none;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .nav {
@@ -196,9 +196,10 @@ img {
 
 
 .mod-menu {
-    background: transparent;
+    background: #fff;
     width: 100%;
-    height: 640px; 
+    min-height: 640px;
+    height: 100%; 
     padding: 24px 24px 40px 16px;
     position: fixed;
     top: 0;
@@ -969,7 +970,7 @@ img {
 .form-row {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 8px;
     position: relative;
 }
 
@@ -978,7 +979,6 @@ img {
     color: #8e8f99;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    margin-bottom: 4px;
 }
 
 .row {
@@ -1367,7 +1367,7 @@ img {
         justify-content: center;
         width: 264px;
         height: 112px;
-        padding: 24px, 100px;
+        padding: 24px 100px;
         border: 1px solid #8e8f99;
         border-radius: 4px;
         background: #f4f4fd;
