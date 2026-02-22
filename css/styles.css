@@ -196,9 +196,9 @@ img {
 
 
 .mod-menu {
-    background: #fff;
+    background: transparent;
     width: 100%;
-    height: 100%; 
+    height: 640px; 
     padding: 24px 24px 40px 16px;
     position: fixed;
     top: 0;
@@ -1125,7 +1125,6 @@ img {
 
     .container {
         max-width: 768px;
-        padding: 0 15px;
     }
 
 
@@ -1397,7 +1396,6 @@ img {
 
     .contacts-list-item {
         width: calc((100% - 24px * 3) / 4);
-        margin-bottom: 8px;
     }
 
     .portfolio {
