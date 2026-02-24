@@ -194,8 +194,9 @@ img {
 }
 
 .mob-container {
-    padding: 24px 16px;
-    height: 100%;
+    max-width: 320px;
+    height: 640px;
+    padding: 24px 24px 40px 16px;
     display: flex;
     flex-direction: column;
 }
@@ -204,7 +205,6 @@ img {
     background: #fff;
     width: 100%;
     height: 100vh; 
-    padding: 24px 24px 40px 16px;
     position: fixed;
     top: 0;
     left: 0;
