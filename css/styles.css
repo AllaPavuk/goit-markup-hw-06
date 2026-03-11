@@ -195,11 +195,11 @@ img {
 
 .mob-container {
     max-width: 320px;
-    height: 100%;
-    min-height: 640px;
+    height: 100vh;
     padding: 24px 24px 40px 16px;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .mod-menu {
@@ -934,7 +934,7 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close svg {
+.modal-close-item {
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -945,8 +945,8 @@ img {
     border: none;
 }
 
-.modal-close:hover>svg,
-.modal-close:focus>svg {
+.modal-close-item:hover,
+.modal-close-item:focus {
     fill: #fff;
 }
 
@@ -1134,6 +1134,13 @@ img {
         max-width: 768px;
     }
 
+    .mobil-menu {
+        display: none;
+    }
+    
+    .menu {
+        display: flex;
+    }
 
     .header-container {
         flex-direction: row;
@@ -1204,6 +1211,7 @@ img {
 
     .contacts>.container {
         max-width: 768px;
+        padding: 0 108px;
     }
 
     .contacts-list {
