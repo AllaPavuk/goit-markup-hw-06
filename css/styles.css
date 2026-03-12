@@ -1137,6 +1137,10 @@ img {
     .mobil-menu {
         display: none;
     }
+
+    .mob-menu {
+        display: none;
+    }
     
     .menu {
         display: flex;
@@ -1295,6 +1299,7 @@ img {
         flex-direction: row;
         align-items: flex-end;
         margin-bottom: 24px;
+        gap: 24px;
     }
 
     .footer-input {
@@ -1459,6 +1464,10 @@ img {
     }
 
     .mobil-menu {
+        display: none;
+    }
+
+    .mob-menu {
         display: none;
     }
     
