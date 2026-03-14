@@ -333,7 +333,7 @@ img {
     padding: 72px 0;
     /* max-width: 1440px;
     height: 600px; */
-    max-width: 320px;
+
     height: 432px;
     margin: 0 auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/hero-tittle-mob.jpg");
@@ -356,7 +356,7 @@ img {
     align-items: center;
     justify-content: center;
     text-align: center;
-
+    max-width: 320px;
 }
 
 
@@ -496,6 +496,8 @@ img {
 .contacts-list {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     /* gap: 24px; */
     gap: 72px;
 
@@ -545,6 +547,7 @@ img {
     border-bottom-right-radius: 4px;
     /* width: calc((100% - 24px * 3) / 4); */
     max-width: 100%;
+    width: 264px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
     /* margin-bottom: 8px; */
@@ -1242,7 +1245,6 @@ img {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/hero-tittle-tab.jpg");
         padding: 112px 0;
-        max-width: 768px;
         height: 436px;
     }
 
@@ -1278,7 +1280,7 @@ img {
     }
 
     .section-one {
-        margin-right: 24px;
+        margin-right: 0;
         align-items: start;
         width: 264px;
     }
@@ -1323,6 +1325,9 @@ img {
         margin-left: 4px;
     }
 
+    .mod-menu.is-open {
+        display: none;
+    }
     
 }
 
